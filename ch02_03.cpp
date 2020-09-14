@@ -6,9 +6,13 @@ int main(){
     int number2=0x33f;
     long int number3=-123456789;
     unsigned long int number4=987654321;
-    cout<<"�u���="<<number1<<"�ҥe�줸��"<<sizeof(number1)<<endl;
-    cout<<"���="<<number2<<"�ҥe�줸��"<<sizeof(number2)<<endl;
-	cout<<"�����="<<number3<<"�ҥe�줸��"<<sizeof(number3)<<endl;
-    cout<<"�L�������="<<number4<<"�ҥe�줸��"<<sizeof(number4)<<endl;
+    cout<<"短整數="<<number1<<"所占位元組"<<sizeof(number1)<<endl;
+    cout<<"整數="<<number2<<"所占位元組"<<sizeof(number2)<<endl;
+	cout<<"長整數="<<number3<<"所占位元組"<<sizeof(number3)<<endl;
+    cout<<"無號長整數="<<number4<<"所占位元組"<<sizeof(number4)<<endl;
     return 0;
 }
+//短整數=300所占位元組2
+//整數=831所占位元組4
+//長整數=-123456789所占位元組4
+//無號長整數=987654321所占位元組4
