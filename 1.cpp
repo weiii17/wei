@@ -40,11 +40,23 @@ int main()
 {
 	Employee em1;
 	
-	cout<<"��J���u���:"<<endl;
+	cout<<"輸入員工資料:"<<endl;
 	em1.input_data();
-	cout<<"��X���u���:"<<endl;
+	cout<<"輸出員工資料:"<<endl;
 	em1.print_data();
 	
 	system("pause");
 	return 0;
 }
+
+輸入員工資料:
+name:林佳薰
+age:17
+salary:1
+mobile:0987878787
+輸出員工資料:
+林佳薰
+17
+1
+0987878787
+請按任意鍵繼續 . . .
